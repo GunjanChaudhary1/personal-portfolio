@@ -29,18 +29,20 @@ html, body{
     width: 25%;
     height: 100%;
     position: fixed;
-    background-color: var(--Third);
-    border: 5px solid var(--Third);
+    border: 5px solid var(--Second);
 }
 .layout2{
     width: 75%;
     margin-left: auto;
 }
 .mainHead{
-    color: var(--Second);
+    color: var(--Fourth);
     font-weight: 900;
     font-size: 25px;
     padding: 10% 0%;
+}
+.navBar{
+    width: 80%;
 }
 .navList{
     display: flex;
@@ -48,18 +50,18 @@ html, body{
     flex-direction: column;
 }
 .items{
+    text-align: center;
     display: visible;
     list-style: none;
     font-weight: 800;
     font-size: 25px;
     margin: 10% 0%;
     border-radius: 5%;
-    background-color: var(--Third);
+    background-color: var(--First);
 }
 .items:hover{
     cursor: pointer;
     background-color: var(--Third);
-    background-color: var(--Second);
 }
 .homeBar{
     display: flex;
@@ -133,18 +135,18 @@ html, body{
     width: 15%;
 }
 .university {
-    border: 2px solid var(--Second);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     margin-bottom: 5%;
     font-weight: 900;
     padding-left: 3%;
 }
 .school1{
-   border: 2px solid var(--Second);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
    font-weight: 900;
    padding-left: 3%;
 }
 .school2{
-   border: 2px solid var(--Second);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
    margin-bottom: 5%;
    font-weight: 900;
    padding-left: 3%;
@@ -155,7 +157,7 @@ html, body{
 .allHead{
     color: white;
     font-size: 17px;
-    background-color: var(--Third) ;
+    background-color: var(--Second) ;
     text-align: center;
     margin: 5% 0%;
 }
@@ -190,7 +192,7 @@ html, body{
 .text{
     font-size: 17px;
     text-align: center;
-    background-color: var(--Third);
+    background-color: var(--Second);
     color: white;
     margin-top: 3%;
     margin-bottom: 5%;
@@ -207,9 +209,9 @@ html, body{
     text-align: center;
 }
 .projectText{
-    border: 2px solid var(--Second);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     margin: 0% 10%;
-    padding: 0% 8%;
+    padding: 2% 8%;
     text-align: center;
     font-weight: 900;
 }
@@ -256,7 +258,7 @@ html, body{
     background-color: var(--Third);
 }
 a{
-    color: white;
+    color: var(--Fourth);
     text-decoration: none;
 }
 a:hover{
